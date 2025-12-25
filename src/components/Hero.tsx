@@ -38,7 +38,7 @@ export default function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full border-2 border-terminal-border overflow-hidden bg-terminal-card">
               <img
-                src="public\linkdln profile.png"
+                src="/linkdln profile.png"
                 alt="Professional portrait"
                 className="w-full h-full object-cover"
               />

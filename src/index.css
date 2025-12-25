@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-terminal-border;
+  }
+
+  body {
+    @apply bg-terminal-bg text-terminal-text font-mono antialiased;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .terminal-command {
+    @apply text-terminal-text font-mono flex items-center gap-2 mb-4;
+  }
+
+  .terminal-command::before {
+    content: '$';
+    @apply text-terminal-muted;
+  }
+
+  .section-card {
+    @apply bg-terminal-card border border-terminal-border rounded-lg p-6 transition-all;
+  }
+
+  .section-card:hover {
+    @apply shadow-lg shadow-white/5;
+  }
+
+  .btn-terminal {
+    @apply px-4 py-2 bg-terminal-card border border-terminal-border rounded-md font-mono text-sm
+           hover:bg-terminal-border hover:shadow-md hover:shadow-white/5 transition-all;
+  }
+
+  .nav-link {
+    @apply text-terminal-text hover:text-white transition-colors font-mono text-sm;
+  }
+
+  .nav-link:hover {
+    @apply drop-shadow-[0_0_8px_rgba(234,234,234,0.3)];
+  }
+}

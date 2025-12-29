@@ -1,5 +1,5 @@
 import { ExternalLink, Award } from 'lucide-react';
-import { certifications } from './certifications.1';
+import { certifications } from "./Navbar";
 
 export default function Certifications() {
   return (

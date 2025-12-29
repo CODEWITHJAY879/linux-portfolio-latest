@@ -14,10 +14,9 @@ export default function Contact() {
             href="mailto:john@example.com"
             className="section-card flex flex-col items-center text-center gap-4 hover:border-terminal-text transition-colors"
           >
-            <Mail size={32} className="text-terminal-text" />
+            <Mail size={50} className="text-terminal-text" />
             <div>
-              <p className="font-mono text-terminal-text font-semibold mb-1">Email</p>
-              <p className="text-terminal-muted text-sm">john@example.com</p>
+              <p className="text-terminal-muted text-sm break-all">jayeshni2020@gmail.com</p>
             </div>
           </a>
 
@@ -27,10 +26,10 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="section-card flex flex-col items-center text-center gap-4 hover:border-terminal-text transition-colors"
           >
-            <Linkedin size={32} className="text-terminal-text" />
+            <Linkedin size={50} className="text-terminal-text" />
             <div>
-              <p className="font-mono text-terminal-text font-semibold mb-1">LinkedIn</p>
-              <p className="text-terminal-muted text-sm">linkedin.com/in/johndeveloper</p>
+              <p className="text-terminal-muted text-sm break-all">  https://www.linkedin.com/in/jayeshnikam1/</p>
+
             </div>
           </a>
 
@@ -40,10 +39,10 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="section-card flex flex-col items-center text-center gap-4 hover:border-terminal-text transition-colors"
           >
-            <Github size={32} className="text-terminal-text" />
+            <Github size={50} className="text-terminal-text" />
             <div>
-              <p className="font-mono text-terminal-text font-semibold mb-1">GitHub</p>
-              <p className="text-terminal-muted text-sm">github.com/johndeveloper</p>
+              <p className="text-terminal-muted text-sm break-all">https://github.com/CODEWITHJAY879</p>
+
             </div>
           </a>
         </div>
